@@ -29,6 +29,34 @@
       <filterQueue>false</filterQueue>
       <properties class="hudson.model.View$PropertyList"/>
     </hudson.model.AllView>
+    <com.smartcodeltd.jenkinsci.plugins.buildmonitor.BuildMonitorView plugin="build-monitor-plugin@1.13+build.202205140447">
+      <owner class="hudson" reference="../../.."/>
+      <name>monitor-view</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="java.lang.String$CaseInsensitiveComparator"/>
+        <string>job1-build-deploy-and-check-availability</string>
+      </jobNames>
+      <jobFilters/>
+      <columns/>
+      <recurse>false</recurse>
+      <title>monitor-view</title>
+      <config>
+        <colourBlindMode>false</colourBlindMode>
+        <displayCommitters>true</displayCommitters>
+        <reduceMotion>false</reduceMotion>
+        <maxColumns>2</maxColumns>
+        <textScale>1.0</textScale>
+        <showBadges>true</showBadges>
+        <displayBadges>UserSetting</displayBadges>
+        <displayBadgesFrom class="com.smartcodeltd.jenkinsci.plugins.buildmonitor.build.GetLastBuild"/>
+        <buildFailureAnalyzerDisplayedField>Name</buildFailureAnalyzerDisplayedField>
+        <displayJUnitProgress>true</displayJUnitProgress>
+        <order class="com.smartcodeltd.jenkinsci.plugins.buildmonitor.order.ByName"/>
+      </config>
+    </com.smartcodeltd.jenkinsci.plugins.buildmonitor.BuildMonitorView>
   </views>
   <primaryView>all</primaryView>
   <slaveAgentPort>50000</slaveAgentPort>

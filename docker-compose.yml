@@ -22,6 +22,6 @@ services:
             - 50000:50000
         
         volumes:
-            - /home/regev/Desktop/Final/jenkins_configuration:/var/jenkins_home
+            - /home/regev/Desktop/Final/jenkins_configuration:/usr/local/tomcat/webapps/Final
         stdin_open: true # docker run -i
         tty: true        # docker run -t
