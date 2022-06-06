@@ -3,7 +3,7 @@
 <html>
    <body>
       <center>
-         <h1>DR. Strange's thoughts of this project: </h1>
+         <h1>CHANGED HEADLINE: </h1>
 	  
 	  <img src ="images/dr strange.png" /> 
 	  <br><br>
