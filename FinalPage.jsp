@@ -3,7 +3,7 @@
 <html>
    <body>
       <center>
-         <h1>CHANGED HEADLINE: </h1>
+         <h1>DR. Strange's thoughts of this project:: </h1>
 	  
 	  <img src ="images/dr strange.png" /> 
 	  <br><br>
@@ -17,7 +17,7 @@
 		out.println(fSize-3+"<br>");
 	  %>
 			<font color = "purple" size = "<%= fSize %>">
-				***
+				JSP Pyramid
 			</font><br />
 	  <%
 		}
