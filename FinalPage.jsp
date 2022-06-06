@@ -17,7 +17,7 @@
 		out.println(fSize-3+"<br>");
 	  %>
 			<font color = "purple" size = "<%= fSize %>">
-				JSP Pyramid
+				***
 			</font><br />
 	  <%
 		}
