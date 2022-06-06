@@ -7,6 +7,7 @@ services:
     image: tomcat:latest
     ports:
     - 80:8080
+
     volumes:
     - /home/regev/Desktop/Final:/usr/local/tomcat/webapps/Final
     stdin_open: true # docker run -i
@@ -20,7 +21,7 @@ services:
         ports:
             - 8080:8080
             - 50000:50000
-        
+        network_mode: "bridge"
         volumes:
             - /home/regev/Desktop/Final/jenkins_configuration:/usr/local/tomcat/webapps/Final
         stdin_open: true # docker run -i

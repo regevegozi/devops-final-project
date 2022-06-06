@@ -1,8 +1,0 @@
-notes:
-
-sudo docker compose up -d
-
-sudo docker ps -a
-docker logs 'CONTAINER_ID'
-
-http://localhost:80/Final/FinalPage.jsp
