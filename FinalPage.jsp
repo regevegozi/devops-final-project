@@ -14,7 +14,7 @@
 			</font><br />
 	  <%for ( fSize = 4; fSize <= 7; fSize++)
 		{ 
-		out.println(fSize-3+"<br>");
+		out.println("111"+ fSize-3+"<br>");
 	  %>
 			<font color = "purple" size = "<%= fSize %>">
 				JSP Pyramid
